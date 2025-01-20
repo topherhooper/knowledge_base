@@ -4,10 +4,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-from components.vector_store import get_vector_store, add_document, VectorStore
-
-# Initialize the vector store
-vector_store = VectorStore()
+from vector_store_handler import get_vector_store, add_document
 
 # Load environment variables from .env file
 load_dotenv()

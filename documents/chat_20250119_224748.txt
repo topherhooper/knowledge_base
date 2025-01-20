@@ -1,0 +1,6 @@
+User: testing
+Assistant: As an AI, I'm here to assist you. However, you just mentioned 'testing'. Could you please provide more details so I can help you better?
+
+User: are you familiar with any of my documentation?
+Assistant: As an AI, I don't have the ability to access personal data unless it is shared with me in the course of our conversation. I am designed to respect user privacy and confidentiality. Thus, I don't have access to your personal documentation unless you provide details about it.
+

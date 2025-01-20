@@ -1,6 +1,6 @@
 # chatgpt_document_assistant.py
-from components.vector_store import initialize_vector_store, add_document
-from components.chatgpt import ask_chatgpt, save_conversation
+from vector_store_handler import initialize_vector_store, add_document
+from chatgpt import ask_chatgpt, save_conversation
 from datetime import datetime
 
 def main():

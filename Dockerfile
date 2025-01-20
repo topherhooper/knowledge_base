@@ -24,4 +24,4 @@ EXPOSE 80
 ENV NAME World
 
 # Run chatgpt_document_assistant.py when the container launches
-CMD ["python", "chatgpt_document_assistant.py"]
+CMD ["python", "py/chatgpt_document_assistant.py"]
