@@ -172,3 +172,8 @@ cython_debug/
 
 # google service account credentials
 .credentials.json
+
+vector_store/index.faiss
+vector_store/index.pkl
+
+.vscode/tasks.json
