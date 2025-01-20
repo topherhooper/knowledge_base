@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    image: knowledge_base-app
+    ports:
+      - "8000:80"
+    env_file:
+      - .env
+    volumes:
+      - .:/app
